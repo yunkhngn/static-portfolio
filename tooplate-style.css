@@ -228,6 +228,9 @@ a:hover, a:active, a:focus {
   height: 100vh;
   position: relative;
   text-align: right;
+  text-shadow: 3px 3px 8px #000000;
+  
+
 }
 
 
@@ -496,31 +499,44 @@ footer p {
     margin-top: 12px;
     margin-bottom: 22px;
   }
-
   .service-thumb2 {
     margin-top: 12px;
     margin-bottom: 22px;
   }
+
   .contact-info {
     margin-top: 22px;
   }
+  
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #home {
     height: 85vh;
   }
+  .service-thumb {
+    margin-top: 12px;
+    margin-bottom: 22px;
+  }
+    #home {
+    height: 125vh;
+  }
   .ul--tool{
-    columns:1;
-    -webkit-columns: 1;
-    -moz-columns: 1;
-  }
-  .ul--program{
-    columns:1;
-    -webkit-columns: 1;
-    -moz-columns: 1;
-  }
+  columns:1;
+  -webkit-columns: 1;
+  -moz-columns: 1;
+}
+.ul--program{
+  columns:1;
+  -webkit-columns: 1;
+  -moz-columns: 1;
+}
+.service-thumb2 {
+  margin-top: 12px;
+  margin-bottom: 22px;
+}
+
 }
 
 
@@ -541,11 +557,86 @@ footer p {
   .contact-info {
     margin-top: 42px;
   }
+  .service-thumb {
+    margin-top: 12px;
+    margin-bottom: 22px;
+  }
+    #home {
+    height: 125vh;
+  }
+  .ul--tool{
+  columns:1;
+  -webkit-columns: 1;
+  -moz-columns: 1;
+}
+.ul--program{
+  columns:1;
+  -webkit-columns: 1;
+  -moz-columns: 1;
+}
+.service-thumb2 {
+  margin-top: 12px;
+  margin-bottom: 22px;
+}
+
 }
 
 
 @media (max-width: 320px) {
   #home {
     height: 125vh;
+  }
+  .ul--tool{
+  columns:1;
+  -webkit-columns: 1;
+  -moz-columns: 1;
+}
+.ul--program{
+  columns:1;
+  -webkit-columns: 1;
+  -moz-columns: 1;
+}
+.service-thumb2 {
+  margin-top: 12px;
+  margin-bottom: 22px;
+}
+
+}
+
+@media screen and (orientation: portrait) and (max-width: 1024px)  {
+  #home {
+    height: 125vh;
+  }
+  .ul--tool{
+  columns:4;
+  -webkit-columns: 4;
+  -moz-columns: 4;
+}
+.ul--program{
+  columns:4;
+  -webkit-columns: 4;
+  -moz-columns: 4;
+}
+.service-thumb2 {
+  margin-bottom: 22px;
+}
+}
+
+@media screen and (orientation: landscape) and (max-width: 1366px)  {
+  #home {
+    height: 125vh;
+  }
+  .ul--tool{
+  columns:4;
+  -webkit-columns: 4;
+  -moz-columns: 4;
+  }
+.ul--program{
+  columns:4;
+  -webkit-columns: 4;
+  -moz-columns: 4;
+  }
+.service-thumb2 {
+  margin-bottom: 22px;
   }
 }
