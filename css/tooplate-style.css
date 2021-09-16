@@ -507,6 +507,10 @@ footer p {
   #home {
     height: 85vh;
   }
+  .service-thumb {
+    margin-top: 12px;
+    margin-bottom: 22px;
+  }
 }
 
 
@@ -526,6 +530,10 @@ footer p {
 
   .contact-info {
     margin-top: 42px;
+  }
+  .service-thumb {
+    margin-top: 12px;
+    margin-bottom: 22px;
   }
 }
 
