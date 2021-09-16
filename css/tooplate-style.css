@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
- 
+
+.mailto:hover{
+  text-decoration-color:#999999;
+}
+
 body {
     background: #ffffff;
     font-family: 'Roboto';
@@ -210,7 +214,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-  background: url('../images/hi.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/wallpaper.jpg') 50% 0 repeat-y fixed;
   background-size: cover;
   background-position: center center;
   display: -webkit-box;
@@ -300,7 +304,16 @@ a:hover, a:active, a:focus {
   margin-bottom: 22px;
 }
 
-
+.ul--tool{
+  columns:4;
+  -webkit-columns: 4;
+  -moz-columns: 4;
+}
+.ul--program{
+  columns:4;
+  -webkit-columns: 4;
+  -moz-columns: 4;
+}
 /*---------------------------------------
   About section              
 -----------------------------------------*/
@@ -310,7 +323,7 @@ a:hover, a:active, a:focus {
 }
 
 .about-image-thumb img {
-  border-radius: 5px;
+  border-radius: 0px;
   margin-bottom: 22px;
 }
 
@@ -319,7 +332,7 @@ a:hover, a:active, a:focus {
 }
 
 .about-thumb {
-  padding: 32px 12px;
+  padding: 32px 50px;
 }
 
 .about-thumb p {
@@ -396,7 +409,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact button#submit {
-  background: #2b2b2b;
+  background: #000000;
   border: none;
   border-radius: 50px;
   color: #ffffff;
@@ -522,4 +535,3 @@ footer p {
     height: 125vh;
   }
 }
-
