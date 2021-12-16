@@ -9675,3 +9675,16 @@ textarea.form-control {
     -webkit-columns: 4;
     -moz-columns: 4;
   }
+
+@media only screen and (max-width: 768px){
+  .ul--program{
+    columns:2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+  .ul--tool{
+    columns:2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+}
