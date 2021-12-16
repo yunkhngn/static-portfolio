@@ -9688,3 +9688,8 @@ textarea.form-control {
     -moz-columns: 2;
   }
 }
+
+.padding{
+  padding-left: 10px;
+  padding-right: 10px;
+}
