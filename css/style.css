@@ -9696,4 +9696,9 @@ textarea.form-control {
 
 .sign{
   padding-right:40px;
+  padding-bottom:40px;
+}
+
+.paddingimg{
+  padding:10px;
 }
